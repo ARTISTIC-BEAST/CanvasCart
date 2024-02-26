@@ -1,0 +1,49 @@
+{
+  "name": "ecommerce-basic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.22.15",
+    "@next-auth/firebase-adapter": "^1.0.3",
+    "@next/bundle-analyzer": "^13.4.7",
+    "dotenv": "^16.3.1",
+    "firebase": "^9.15.0",
+    "firestore": "^1.1.6",
+    "jwt-decode": "^3.1.2",
+    "next": "^13.0.6",
+    "next-auth": "^4.22.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.3",
+    "swr": "^2.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "npx next dev",
+    "start": "npx next start",
+    "build": "npx next build",
+    "test": "jest",
+    "eject": "npx next eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "next-router-mock": "^0.9.10"
+  }
+}
