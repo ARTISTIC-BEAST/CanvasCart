@@ -1,0 +1,114 @@
+ /* html {
+    margin-bottom: 4rem;
+    margin: 0;
+    padding: 0;
+    font-family: europa, sans-serif;
+  }
+   */
+  /* --------------------Navbar--------------------- */
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: white;
+    color: black;
+  }
+  
+  .navbarbrand a {
+    font-weight: 500;
+    font-size: 2.5em;
+    padding: 0 0.6rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: none;
+    list-style: none;
+  }
+  
+  .navbarbrand {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbarbrand b {
+    font-family: europa, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .navbarmenu {
+    display: flex;
+    border: 1px solid rgba(200, 200, 200, 1);
+    width: 100vw; 
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .navbaritem {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: none;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    padding: 0 3.25rem;
+    height: 64px;
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  .navbaritem:hover {
+    opacity: 0.5;
+  }
+
+  .navbaritemuser {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: none;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    padding: 0 2.3rem 0 0.3rem;
+    height: 64px;
+  }
+
+  .useritem {
+    margin-left: 0.5rem;
+  }
+  
+  .activenav {
+    color: #333029;
+  }
+
+  .navbar img {
+    margin: 19.5px 0 19.5px 1.9rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .navbaritem a {
+    font-family: proxima-nova, sans-serif;
+  }
+
+@media screen and (max-width: 700px) {
+  .navbaritem {
+     padding: 0 1.5rem;
+   }
+
+}
